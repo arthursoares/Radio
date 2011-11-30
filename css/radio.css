@@ -178,7 +178,7 @@ cursor: default;
 
 #sm2-container.high_performance,
 #sm2-container.high_performance.swf_timeout {
- /* "high performance" case: keep on-screen at all times */
+
  position: absolute;
  position: fixed;
 }
@@ -189,11 +189,7 @@ cursor: default;
  _left: -9999px;
  bottom: 0px;
  left: 0px;
- /**
-  * special case: show at first with w/h, hide when unblocked.
-  * might be bad/annoying.
-  * try to stay within ClickToFlash "invisible" limits (so it won't be blocked.)
-  */
+
  z-index: 99; /* try to stay on top */
 }
 
@@ -206,11 +202,7 @@ cursor: default;
 #sm2-container.high_performance.swf_unblocked,
 #sm2-container.high_performance.swf_unblocked object,
 #sm2-container.high_performance.swf_unblocked embed {
- /**
-  * 8x8px is required minimum to load in fx/win32 in some cases(?)
-  * 6x6+ good for fast performance, even better when on-screen via position:fixed
-  * also, clickToFlash (Safari <5.1) may auto-load "invisible" SWFs at this size
-  */
+
  height: 8px;
  width: 8px;
 }
