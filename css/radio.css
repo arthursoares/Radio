@@ -56,7 +56,7 @@ cursor: default;
 #radio .playlists-ul { height: 200px; overflow-y: auto; }
 #radio h2 { text-transform: uppercase; margin-bottom:10px }
 
-#radio_embed { border-bottom: 1px solid lightgray; border-top: 1px solid lightgray; padding-top: 0px; padding-bottom: 0px; height: 300px; margin }
+#radio_embed { border-bottom: 1px solid lightgray; border-top: 1px solid lightgray; padding-top: 0px; padding-bottom: 0px; height: 300px; width: 90%; }
 #radio_embed h2 { font-family: "TimesNewRomanMTStdBold"; }
 #radio_embed .artwork { float: left; margin-right: 30px; }
 #radio_embed .artwork img { width: 300px; height: 300px; max-height: 300px;}
